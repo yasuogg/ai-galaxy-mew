@@ -1,0 +1,81 @@
+.container {
+    min-height: 100vh;
+    width: 1600px;
+    max-width: 90%;
+    padding: 5rem 0;
+    margin: 0 auto;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 4rem;
+    text-align: center;
+  }
+  
+  .paragraph {
+    font-size: 2rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .styles.card {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .charactersContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding-top: 30px;
+    gap: 20px;
+  }
+  
+  .card {
+    max-width: 90%;
+    border-radius: 5px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px #0000001a;
+    display: flex;
+    height: 220px;
+  }
+  
+  .cardText {
+    margin-left: 20px;
+  }
+  
+  .cardName {
+    font-size: 1.5rem;
+  }
+  
+  .statusText {
+    display: flex;
+    align-items: center;
+  }
+  
+  .statusGreen {
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: greenyellow;
+  }
+  
+  .statusRed {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: red;
+  }
+  
+  .characterWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+  }
